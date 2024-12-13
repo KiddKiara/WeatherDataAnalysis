@@ -12,9 +12,9 @@ This project analyzes weather patterns for 10 global cities using the OpenWeathe
   - Relationship between temperature and humidity (Scatter Plot).
   - Average temperature by city (Bar Chart).
   - Proportion of humidity by city (Pie Chart).
-- **Testing:** Includes unit tests to validate data loading, cleaning, and visualization outputs.
 - **Error Handling:** Added error handling to manage API failures gracefully.
 - **Logging:** Integrated logging to track the success and failure of data fetching.
+- **Testing:** Includes unit tests to validate data loading, cleaning, and visualization outputs.
 
 ## Recent Enhancements
 - **Error Handling:** Added error handling to manage cases where API requests fail. Errors are logged and printed to the console without interrupting the entire process.
@@ -34,6 +34,31 @@ The following visualizations are generated:
    - Highlights the average temperature for each city.
 5. **Proportion of Humidity by City (Pie Chart):**
    - Visualizes the proportion of total humidity contributed by each city.
+
+## Project Planning Timeline
+This project followed a structured timeline to ensure all milestones were met efficiently:
+1. **Week 1: Project Setup**
+   - Set up a virtual environment and initialized the project repository.
+   - Familiarized with the OpenWeatherMap API and obtained an API key.
+
+2. **Week 2: Data Fetching**
+   - Developed the `fetch_weather_data.py` script to retrieve weather data for 10 global cities.
+   - Implemented error handling and logging to track API request status.
+
+3. **Week 3: Data Cleaning**
+   - Created validation steps to handle missing or invalid data.
+   - Stored cleaned data in a CSV file for further analysis.
+
+4. **Week 4: Visualization**
+   - Designed multiple visualizations using Matplotlib and Seaborn to explore trends in the data.
+
+5. **Week 5: Testing**
+   - Added unit tests to validate data loading, cleaning, and visualization outputs.
+   - Expanded tests to ensure data ranges were valid.
+
+6. **Week 6: Documentation and Submission**
+   - Finalized the `README.md` file and included all recent enhancements.
+   - Submitted the completed project repository.
 
 ## How to Run
 1. **Clone this repository:**

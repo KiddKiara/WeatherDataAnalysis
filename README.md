@@ -13,6 +13,14 @@ This project analyzes weather patterns for 10 global cities using the OpenWeathe
   - Average temperature by city (Bar Chart).
   - Proportion of humidity by city (Pie Chart).
 - **Testing:** Includes unit tests to validate data loading, cleaning, and visualization outputs.
+- **Error Handling:** Added error handling to manage API failures gracefully.
+- **Logging:** Integrated logging to track the success and failure of data fetching.
+
+## Recent Enhancements
+- **Error Handling:** Added error handling to manage cases where API requests fail. Errors are logged and printed to the console without interrupting the entire process.
+- **Logging:** Implemented logging to record the status of data fetching for each city in `weather_data.log`.
+- **Unit Test Expansion:** Expanded tests to validate data ranges for temperature and humidity, as well as ensure the creation of the summary report.
+- **Scatter Plot Enhancements:** Improved the scatter plot by adding city annotations for better visualization.
 
 ## Visualizations
 The following visualizations are generated:

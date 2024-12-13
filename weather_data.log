@@ -1,0 +1,11 @@
+2024-12-12 23:05:35,568 - INFO - Starting to fetch weather data...
+2024-12-12 23:05:35,632 - INFO - Successfully fetched data for London
+2024-12-12 23:05:35,711 - INFO - Successfully fetched data for New York
+2024-12-12 23:05:35,780 - INFO - Successfully fetched data for Tokyo
+2024-12-12 23:05:35,853 - INFO - Successfully fetched data for Delhi
+2024-12-12 23:05:35,933 - INFO - Successfully fetched data for Sydney
+2024-12-12 23:05:36,013 - INFO - Successfully fetched data for Cairo
+2024-12-12 23:05:36,107 - INFO - Successfully fetched data for Paris
+2024-12-12 23:05:36,195 - INFO - Successfully fetched data for Moscow
+2024-12-12 23:05:36,287 - INFO - Successfully fetched data for Rio
+2024-12-12 23:05:36,365 - INFO - Successfully fetched data for Cape Town

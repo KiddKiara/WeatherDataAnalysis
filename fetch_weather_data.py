@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import logging
 
 # Your API key
 API_KEY = "7959c89c2c0d914527ab20c8e35d7bb1"
@@ -28,6 +29,19 @@ for city in cities:
         })
     else:
         print(f"Failed to fetch data for {city}: {response.status_code}")
+
+# Set up logging
+logging.basicConfig(filename="weather_data.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+# Example log messages
+logging.info("Starting to fetch weather data...")
+for city in cities:
+    try:
+        response = requests.get(BASE_URL, params=params)
+        response.raise_for_status()
+        logging.info(f"Successfully fetched data for {city}")
+    except Exception as e:
+        logging.error(f"Failed to fetch data for {city}: {e}")
 
 # Save data to a CSV file
 df = pd.DataFrame(weather_data)

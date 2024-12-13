@@ -1,6 +1,6 @@
 Weather Data Summary Report
 ===========================
-Average Temperature: 9.17°C
-Average Humidity: 72.50%
+Average Temperature: 9.24ï¿½C
+Average Humidity: 70.40%
 Hottest City: Sydney
 Most Humid City: London

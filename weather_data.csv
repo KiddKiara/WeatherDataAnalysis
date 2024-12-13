@@ -1,11 +1,11 @@
 City,Temperature,Humidity,Weather
-London,6.32,95,mist
-New York,-0.48,39,clear sky
-Tokyo,7.15,46,overcast clouds
-Delhi,8.05,87,mist
-Sydney,31.89,52,clear sky
-Cairo,16.42,88,mist
-Paris,2.23,89,overcast clouds
-Moscow,-5.2,66,overcast clouds
+London,6.05,95,light intensity drizzle
+New York,-1.69,43,clear sky
+Tokyo,7.42,44,broken clouds
+Delhi,15.05,47,haze
+Sydney,29.32,56,clear sky
+Cairo,15.42,94,mist
+Paris,2.97,86,overcast clouds
+Moscow,-5.25,66,overcast clouds
 Rio,9.86,84,clear sky
-Cape Town,15.42,79,moderate rain
+Cape Town,17.25,70,light rain

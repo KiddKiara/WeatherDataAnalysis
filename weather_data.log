@@ -33,3 +33,27 @@
 2024-12-12 23:25:22,211 - INFO - Successfully fetched data for Rio
 2024-12-12 23:25:22,436 - INFO - Successfully fetched data for Cape Town
 2024-12-12 23:25:22,446 - INFO - Weather data saved to weather_data.csv
+2024-12-12 23:46:43,911 - INFO - Starting to fetch weather data...
+2024-12-12 23:46:44,296 - INFO - Successfully fetched data for London
+2024-12-12 23:46:44,546 - INFO - Successfully fetched data for New York
+2024-12-12 23:46:44,749 - INFO - Successfully fetched data for Tokyo
+2024-12-12 23:46:44,957 - INFO - Successfully fetched data for Delhi
+2024-12-12 23:46:45,160 - INFO - Successfully fetched data for Sydney
+2024-12-12 23:46:45,497 - INFO - Successfully fetched data for Cairo
+2024-12-12 23:46:45,768 - INFO - Successfully fetched data for Paris
+2024-12-12 23:46:46,074 - INFO - Successfully fetched data for Moscow
+2024-12-12 23:46:46,210 - INFO - Successfully fetched data for Rio
+2024-12-12 23:46:46,795 - INFO - Successfully fetched data for Cape Town
+2024-12-12 23:46:46,795 - INFO - Weather data saved to weather_data.csv
+2024-12-13 00:17:51,446 - INFO - Starting to fetch weather data...
+2024-12-13 00:17:51,555 - INFO - Successfully fetched data for London
+2024-12-13 00:17:51,631 - INFO - Successfully fetched data for New York
+2024-12-13 00:17:51,703 - INFO - Successfully fetched data for Tokyo
+2024-12-13 00:17:51,780 - INFO - Successfully fetched data for Delhi
+2024-12-13 00:17:51,854 - INFO - Successfully fetched data for Sydney
+2024-12-13 00:17:51,931 - INFO - Successfully fetched data for Cairo
+2024-12-13 00:17:52,008 - INFO - Successfully fetched data for Paris
+2024-12-13 00:17:52,088 - INFO - Successfully fetched data for Moscow
+2024-12-13 00:17:52,313 - INFO - Successfully fetched data for Rio
+2024-12-13 00:17:52,389 - INFO - Successfully fetched data for Cape Town
+2024-12-13 00:17:52,399 - INFO - Weather data saved to weather_data.csv

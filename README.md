@@ -40,22 +40,17 @@ This project followed a structured timeline to ensure all milestones were met ef
 1. **Week 1: Project Setup**
    - Set up a virtual environment and initialized the project repository.
    - Familiarized with the OpenWeatherMap API and obtained an API key.
-
 2. **Week 2: Data Fetching**
    - Developed the `fetch_weather_data.py` script to retrieve weather data for 10 global cities.
    - Implemented error handling and logging to track API request status.
-
 3. **Week 3: Data Cleaning**
    - Created validation steps to handle missing or invalid data.
    - Stored cleaned data in a CSV file for further analysis.
-
 4. **Week 4: Visualization**
    - Designed multiple visualizations using Matplotlib and Seaborn to explore trends in the data.
-
 5. **Week 5: Testing**
    - Added unit tests to validate data loading, cleaning, and visualization outputs.
    - Expanded tests to ensure data ranges were valid.
-
 6. **Week 6: Documentation and Submission**
    - Finalized the `README.md` file and included all recent enhancements.
    - Submitted the completed project repository.

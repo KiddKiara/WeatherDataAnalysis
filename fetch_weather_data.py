@@ -41,8 +41,15 @@ for city in cities:
         logging.error(f"Error fetching data for {city}: {e}")
         print(f"Error fetching data for {city}: {e}")
 
-# Save data to a CSV file
+# Convert weather data to a DataFrame
 df = pd.DataFrame(weather_data)
-df.to_csv("weather_data.csv", index=False)
-print("Weather data saved to weather_data.csv")
-logging.info("Weather data saved to weather_data.csv")
+
+# Validate data for missing or invalid values
+if df.isnull().values.any():
+    logging.error("Missing or invalid data found. Please check the API responses.")
+    print("Missing or invalid data found. Please check the API responses.")
+else:
+    # Save to CSV if data is valid
+    df.to_csv("weather_data.csv", index=False)
+    print("Weather data saved to weather_data.csv")
+    logging.info("Weather data saved to weather_data.csv")

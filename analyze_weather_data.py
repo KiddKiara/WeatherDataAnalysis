@@ -71,3 +71,11 @@ plt.title("Proportion of Humidity by City")
 plt.ylabel("")  # Hide y-axis label for better appearance
 plt.savefig("humidity_proportion.png")
 plt.show()
+
+# Boxplot: Temperature distribution across cities
+plt.figure(figsize=(10, 6))
+sns.boxplot(x="City", y="Temperature", data=df)
+plt.title("Temperature Distribution Across Cities")
+plt.xticks(rotation=45)
+plt.savefig("temperature_distribution.png")
+plt.show()

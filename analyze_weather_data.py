@@ -44,7 +44,9 @@ plt.show()
 # Scatter plot: Temperature vs. Humidity
 plt.figure(figsize=(10, 6))
 sns.scatterplot(x="Temperature", y="Humidity", hue="City", data=df)
-plt.title("Temperature vs. Humidity")
+for i, row in df.iterrows():
+    plt.text(row["Temperature"], row["Humidity"], row["City"], fontsize=9)
+plt.title("Temperature vs. Humidity (With City Annotations)")
 plt.xlabel("Temperature (°C)")
 plt.ylabel("Humidity (%)")
 plt.savefig("temp_vs_humidity.png")
